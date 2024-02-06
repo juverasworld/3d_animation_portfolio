@@ -26,9 +26,10 @@ import esthub from "./company/esthub.jpg";
 import everest from "./company/everest.webp";
 import verbum from "./company/verbum.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import clothMe from "./clothMe.png";
+import cryptocapitial from "./cryptocapitial.png";
+import cwito from "./cwito.png";
+import datafest from "./datafest.png";
 
 export {
   logo,
@@ -56,7 +57,8 @@ daba,
   esthub,
   everest,
  verbum,
-  carrent,
-  jobit,
-  tripguide,
+  datafest,
+ clothMe,
+  cryptocapitial,
+  cwito,
 };

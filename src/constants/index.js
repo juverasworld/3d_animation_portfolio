@@ -20,10 +20,12 @@ import {
   daba,
   everest,
   esthub,
-  carrent,
-  jobit,
-  tripguide,
+ 
   threejs,
+  clothMe,
+  cryptocapitial,
+  cwito,
+  datafest,
 } from "../assets";
 
 export const navLinks = [
@@ -219,7 +221,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: clothMe,
     source_code_link: "https://github.com/",
   },
   {
@@ -240,7 +242,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: cryptocapitial,
     source_code_link: "https://github.com/",
   },
   {
@@ -261,7 +263,28 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: datafest,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cwito,
     source_code_link: "https://github.com/",
   },
 ];
