@@ -26,11 +26,13 @@ import esthub from "./company/esthub.jpg";
 import everest from "./company/everest.webp";
 import verbum from "./company/verbum.png";
 
+import astha from "./astha.png"
 import clothMe from "./clothMe.png";
 import cryptocapitial from "./cryptocapitial.png";
 import cwito from "./cwito.png";
 import datafest from "./datafest.png";
-
+import visit from "./visit.webp"
+import everestMobility from "./everestMobility.png"
 export {
   logo,
   backend,
@@ -57,8 +59,12 @@ daba,
   esthub,
   everest,
  verbum,
+ astha,
   datafest,
  clothMe,
   cryptocapitial,
   cwito,
+  visit,
+  everestMobility,
+
 };

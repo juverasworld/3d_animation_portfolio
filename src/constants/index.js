@@ -23,9 +23,11 @@ import {
  
   threejs,
   clothMe,
+  astha,
   cryptocapitial,
   cwito,
   datafest,
+  everestMobility,
 } from "../assets";
 
 export const navLinks = [
@@ -203,17 +205,40 @@ const testimonials = [
 ];
 
 const projects = [
+
   {
-    name: "Car Rent",
+    name: "Astha Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A charity focused website that focuses on helping widows and orphans be the most that they can be",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: astha,
+    live_link: "https://astha-theta.vercel.app/",
+    source_code_link: "https://github.com/juverasworld/Astha/",
+  },
+  {
+    name: "Cloth Me",
+    description:
+      "A clothing animation website that allows users to customize the design of their cloth and the logo the cloth could have so that they go ahead and just print out that style",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
@@ -222,19 +247,20 @@ const projects = [
       },
     ],
     image: clothMe,
-    source_code_link: "https://github.com/",
+    live_link: "animation-learning.vercel.app",
+    source_code_link: "https://github.com/juverasworld/AnimationLearning/",
   },
   {
-    name: "Job IT",
+    name: "C.hub",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A mini website to show an easy way to save and invest in crypto  currency to encourage cryptocurrency trading",
     tags: [
       {
-        name: "react",
+        name: "Chakara UI",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Nextjs",
         color: "green-text-gradient",
       },
       {
@@ -243,19 +269,20 @@ const projects = [
       },
     ],
     image: cryptocapitial,
-    source_code_link: "https://github.com/",
+    live_link:"https://crypto-capitial.vercel.app/",
+    source_code_link: "https://github.com/juverasworld/C.HUB",
   },
   {
-    name: "Trip Guide",
+    name: "Information Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An information website about all you need to know about Datafest summit, starting from how to register for the event to how to volunteer for the event ",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "animate on scroll",
         color: "green-text-gradient",
       },
       {
@@ -264,19 +291,20 @@ const projects = [
       },
     ],
     image: datafest,
-    source_code_link: "https://github.com/",
+    live_link:"https://dsunnsumit-juverasworld.vercel.app/",
+    source_code_link: "https://github.com/juverasworld/dsunnsumit",
   },
   {
-    name: "Trip Guide",
+    name: "Cwito Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Crypto website  that ensures effortless conversion of your cryptocurrencies into naira instantly..",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -285,8 +313,33 @@ const projects = [
       },
     ],
     image: cwito,
-    source_code_link: "https://github.com/",
+    live_link: "https://staging.cwito.com/",
+    source_code_link: "https://github.com/Digital-Abundance-Ltd/cwito-landing",
   },
+ 
+  {
+    name: "Everest mobility",
+    description:
+      "An Online mobility platform for people to ride and earn and have the benefit of  earning  cryptocurrencies.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: everestMobility,
+    live_link: "https://vercel.com/juverasworld/everest/55SeDScEYgPWcAWzq1JEpNPx5eWn",
+    source_code_link: "https://github.com/juverasworld/Everest",
+  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
