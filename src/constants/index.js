@@ -28,6 +28,7 @@ import {
   cwito,
   datafest,
   everestMobility,
+  pheno,
 } from "../assets";
 
 export const navLinks = [
@@ -206,6 +207,98 @@ const testimonials = [
 
 const projects = [
 
+
+  {
+    name: "Phenoemon Website",
+    description:
+      "A clone for a website that helps users meet their technological needs as soon as possible..",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pheno,
+    live_link: "https://phenomeon.vercel.app/",
+    source_code_link: "https://github.com/juverasworld/phenonmeon",
+  },
+  {
+    name: "Cwito Website",
+    description:
+      "A Crypto website  that ensures effortless conversion of your cryptocurrencies into naira instantly..",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cwito,
+    live_link: "https://staging.cwito.com/",
+    source_code_link: "https://github.com/Digital-Abundance-Ltd/cwito-landing",
+  },
+  {
+    name: "Information Website",
+    description:
+      "An information website about all you need to know about Datafest summit, starting from how to register for the event to how to volunteer for the event ",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "animate on scroll",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: datafest,
+    live_link:"https://dsunnsumit-juverasworld.vercel.app/",
+    source_code_link: "https://github.com/juverasworld/dsunnsumit",
+  },
+  
+ 
+  {
+    name: "Everest mobility",
+    description:
+      "An Online mobility platform for people to ride and earn and have the benefit of  earning  cryptocurrencies.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: everestMobility,
+    live_link: "https://vercel.com/juverasworld/everest/55SeDScEYgPWcAWzq1JEpNPx5eWn",
+    source_code_link: "https://github.com/juverasworld/Everest",
+  },
+
   {
     name: "Astha Website",
     description:
@@ -272,73 +365,7 @@ const projects = [
     live_link:"https://crypto-capitial.vercel.app/",
     source_code_link: "https://github.com/juverasworld/C.HUB",
   },
-  {
-    name: "Information Website",
-    description:
-      "An information website about all you need to know about Datafest summit, starting from how to register for the event to how to volunteer for the event ",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "animate on scroll",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: datafest,
-    live_link:"https://dsunnsumit-juverasworld.vercel.app/",
-    source_code_link: "https://github.com/juverasworld/dsunnsumit",
-  },
-  {
-    name: "Cwito Website",
-    description:
-      "A Crypto website  that ensures effortless conversion of your cryptocurrencies into naira instantly..",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "framer-motion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: cwito,
-    live_link: "https://staging.cwito.com/",
-    source_code_link: "https://github.com/Digital-Abundance-Ltd/cwito-landing",
-  },
  
-  {
-    name: "Everest mobility",
-    description:
-      "An Online mobility platform for people to ride and earn and have the benefit of  earning  cryptocurrencies.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "framer-motion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: everestMobility,
-    live_link: "https://vercel.com/juverasworld/everest/55SeDScEYgPWcAWzq1JEpNPx5eWn",
-    source_code_link: "https://github.com/juverasworld/Everest",
-  },
 
 ];
 

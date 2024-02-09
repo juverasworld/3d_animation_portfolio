@@ -32,6 +32,7 @@ import cryptocapitial from "./cryptocapitial.png";
 import cwito from "./cwito.png";
 import datafest from "./datafest.png";
 import visit from "./visit.webp"
+import pheno from "./pheno.png"
 import everestMobility from "./everestMobility.png"
 export {
   logo,
@@ -66,5 +67,6 @@ daba,
   cwito,
   visit,
   everestMobility,
+  pheno,
 
 };

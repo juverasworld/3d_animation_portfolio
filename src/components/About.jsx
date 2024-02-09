@@ -32,6 +32,7 @@ const ServiceCard = ({ index, title, icon }) => (
         <h3 className='text-white font-sans text-[20px] font-bold text-center'>
           {title}
         </h3>
+        <div className="a"> You can check out my github repository here</div>
       </div>
     </motion.div>
   </div>
