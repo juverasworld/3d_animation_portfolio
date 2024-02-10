@@ -50,18 +50,22 @@ const services = [
   {
     title: "Web Developer",
     icon: web,
+    links:"https://github.com/juverasworld"
   },
   {
     title: "Frontend Developer",
     icon: mobile,
+    links:"https://github.com/juverasworld"
   },
   {
     title: "Content Writer",
     icon: backend,
+    links:"https://hashnode.com/@Ifebuche"
   },
   {
     title: "Blockchain Enthusiat",
     icon: creator,
+    links:"https://hashnode.com/@Ifebuche"
   },
 ];
 
